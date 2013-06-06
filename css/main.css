@@ -13,6 +13,7 @@
 html, body { height: 100%; }
 
 body {
+  font-family: "Helvetica";
   background-color: #F3F3F3;
   padding: 0px 0px;
 }
@@ -150,6 +151,13 @@ h1, h2, h3, h4, h5, h6 {
   opacity:0;
 }
 
-.footer {
+#footer {
+  text-align: center;
+  margin: 20px 120px;
+  padding-top: 10px;
+  border-width: 2px;
+  border-top-style: solid;
+  border-color: #B4B4B4;
   display: block;
+  font-size: 12px;
 }
