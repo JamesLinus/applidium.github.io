@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  Apex
-date:   2013-06-05 16:55:51
-categories: jekyll update
+categories: javascript
 github: Apex
 thumbnail_url: http://applidium.com/news/app_store_apex/screenshot.jpg
-website: http://applidium.com
+website: http://apex.applidium.com
 ---
 
 An awesome visualization of what's hot on Apple's App Store
