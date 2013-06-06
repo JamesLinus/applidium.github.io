@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #F3F3F3;
-  padding: 0px 40px;
+  padding: 0px 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,26 +46,25 @@ h1, h2, h3, h4, h5, h6 {
   overflow: auto;
 }
 
-.header {
-  width: 100%;
+#header {
   display: block;
   font-family: "CenturyGothic";
-  margin: 10px 0px;
+  margin: 10px 40px;
   overflow: auto;
 }
 
-.header .extra {
+#header .extra {
   display: inline-block;
   float: right;
 }
 
-.header h1 {
+#header h1 {
   display: inline-block;
   float: left;
   font-size: 30px;
 }
 
-.header h1 a {
+#header h1 a {
   color: #000;
   font-weight: normal;
 }
@@ -80,15 +79,18 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   font-weight: normal;
   text-align: justify;
-  margin: 20px 80px;
+  margin: 20px 120px;
 }
 
 #projects {
+  margin: 0px 30px;
   overflow: auto;
+  max-width: 1400px;
 }
 
 .project {
   width: 300px;
+  margin: 0px 10px;
   display:  block;
   float: left;
 }
@@ -98,24 +100,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .project .header {
+  font-family: "CenturyGothic";
   font-size: 14px;
+  overflow: auto;
 }
 
 .project .title {
   font-family: "CenturyGothic";
   font-size: 24px;
+  width: 100%;
   float: left;
   vertical-align: text-bottom;
 }
 
 .project .links {
-  margin-top: 9px;
-  float: right;
+  margin: 9px 0px;
+  float: left;
   vertical-align: text-bottom;
 }
 
 .project .description {
   position: absolute;
+  padding: 8px;
+  height: 128px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: #ffffff;
 }
 
 .thumbnail {

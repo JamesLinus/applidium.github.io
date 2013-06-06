@@ -11,7 +11,7 @@ title: Applidium Open Source
     <li class="project">
       <div class="header">
         <p class="title">{{ post.title }}</p>
-        <p class="links"><a href="{{ post.url }}">site</a> / <a href="https://github.com/applidium/{{ post.github }}">github</a></p>
+        <p class="links">{% if post.website %}<a href="{{ post.website }}">site</a> / {% endif %}<a href="https://github.com/applidium/{{ post.github }}">github</a></p>
       </div>
       <div class="thumbnail">
         <div class="description">{{post.excerpt}}</div>
