@@ -6,14 +6,17 @@ title: Applidium Open Source
 <h2 class="promo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h2>
 
 <div id="projects">
-  <ul class="post">
+  <ul>
     {% for post in site.posts %}
-    <li>
+    <li class="project">
       <div class="header">
         <p class="title">{{ post.title }}</p>
         <p class="links"><a href="{{ post.url }}">site</a> / <a href="https://github.com/applidium/{{ post.github }}">github</a></p>
       </div>
-      <img src="{{ post.thumbnail_url}}" alt="{{ post.title }}" width="300" height="184">
+      <div class="thumbnail">
+        <div class="description">{{post.excerpt}}</div>
+        <img src="{{ post.thumbnail_url}}" alt="{{ post.title }}" width="300" height="184">
+      </div>
     </li>
     {% endfor %}
   </ul>
