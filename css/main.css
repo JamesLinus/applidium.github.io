@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .extra {
+  margin-top: 14px;
   display: inline-block;
   float: right;
 }
@@ -131,6 +132,8 @@ h1, h2, h3, h4, h5, h6 {
   border-width: 20px;
   border-style: solid;
   border-color: #ffffff;
+  font-size: 18px;
+  font-family: "CenturyGothic";
 }
 
 .thumbnail {
