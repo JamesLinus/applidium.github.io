@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .project {
   width: 300px;
-  margin: 0px 10px;
+  margin: 40px 10px 10px 10px;
   display:  block;
   float: left;
 }
