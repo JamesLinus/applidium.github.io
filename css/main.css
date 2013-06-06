@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #F3F3F3;
-  padding: 0px 20px;
+  padding: 0px 40px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,13 +50,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header .extra {
-  margin-top: 14px;
-  display: block;
+  display: inline-block;
   float: right;
 }
 
 .header h1 {
-  display: block;
+  display: inline-block;
   float: left;
   font-size: 30px;
 }
@@ -76,5 +75,30 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   font-weight: normal;
   text-align: justify;
-  padding: 20px 40px;
+  margin: 20px 80px;
+}
+
+.post {
+  width: 300px;
+}
+
+.post li {
+  list-style-type: none;
+}
+
+.post .header {
+  font-size: 14px;
+}
+
+.post .title {
+  font-family: "CenturyGothic";
+  font-size: 24px;
+  float: left;
+  vertical-align: text-bottom;
+}
+
+.post .links {
+  margin-top: 9px;
+  float: right;
+  vertical-align: text-bottom;
 }

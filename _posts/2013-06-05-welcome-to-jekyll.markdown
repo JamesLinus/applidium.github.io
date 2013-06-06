@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  Apex
 date:   2013-06-05 16:55:51
 categories: jekyll update
+github: Apex
+thumbnail_url: http://applidium.com/news/app_store_apex/screenshot.jpg
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
