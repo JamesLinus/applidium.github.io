@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
     src: url('fonts/century_gothic.tff');
   }
 
-  /*****************************************************************************/
+/*****************************************************************************/
 /*
 /* Site
 /*
@@ -128,25 +128,32 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: text-bottom;
 }
 
-.project .description {
+.thumbnail {
+  width: 300px;
+  height: 166px;
+  position: relative;
+  box-shadow: 0 0 1px #999;
+}
+
+.thumbnail .description {
   position: absolute;
+  top: 0;
+  left: 0;
   padding: 8px;
   height: 128px;
-  border-width: 20px;
-  border-style: solid;
-  border-color: #ffffff;
+  border: 10px solid #FFF;
   font-size: 18px;
   font-family: "CenturyGothic";
 }
 
-.thumbnail {
-  width: 300px;
-  height: 184px;
-  position: relative;
-}
-
 .thumbnail img {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 166px;
+  height: 146px;
+  border: 10px solid #FFF;
   -webkit-transition:opacity .3s ease-in;
   -moz-transition:opacity .3s ease-in;
   -o-transition:opacity .3s ease-in;
