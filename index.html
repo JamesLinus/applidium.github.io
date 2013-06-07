@@ -14,10 +14,16 @@ title: Applidium Open Source
         <p class="title">{{ post.title }}</p>
         <p class="links">{% if post.website %}<a href="{{ post.website }}">site</a>{% endif %}{% if post.website and post.github %} / {% endif %}{% if post.github %}<a href="https://github.com/applidium/{{ post.github }}">github</a>{% endif %}</p>
       </div>
-      <div class="thumbnail">
-        <div class="description">{{post.excerpt}}</div>
-        <img src="{{ post.thumbnail_url}}" alt="{{ post.title }}" width="300" height="184">
-      </div>
+      {% if post.website %}
+      <a href="{{ post.website }}">
+      {% else %}
+      <a href="http://github.com/applidium/{{ post.github }}">
+      {% endif %}
+        <div class="thumbnail">
+          <div class="description">{{post.excerpt}}</div>
+          <img src="{{ post.thumbnail_url}}" alt="{{ post.title }}" width="300" height="184">
+        </div>
+      </a>
     </li>
     {% endfor %}
   </ul>
