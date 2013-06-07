@@ -3,7 +3,7 @@ layout: post
 title:  Vim
 categories: ios
 github: Vim
-thumbnail_url: http://applidium.com/news/vim_est_disponible_sur_l_app_store/vim_100_itc.png
+thumbnail_url: /images/vim.png
 ---
 
 Port of the Vim text editor to the iOS

@@ -3,7 +3,7 @@ layout: post
 title:  Apex
 categories: javascript
 github: Apex
-thumbnail_url: http://applidium.com/news/app_store_apex/screenshot.jpg
+thumbnail_url: /images/apex.jpg
 website: http://apex.applidium.com
 ---
 
