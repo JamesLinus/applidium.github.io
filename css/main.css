@@ -42,6 +42,12 @@ h1, h2, h3, h4, h5, h6 {
 /*
 /*****************************************************************************/
 
+.logo {
+  display: block;
+  float: left;
+  margin: 7px 20px 0px 0px;
+}
+
 .centered {
   margin: 0px auto;
   width: 1024px;
