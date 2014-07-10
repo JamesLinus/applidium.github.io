@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  Poinçonneur
+title:  Contrôleur
 categories: android
-github: Poinconneur
+github: Controleur
 thumbnail_url: /images/controleur.png
-website: http://applidium.github.io/Poinconneur/
+website: http://applidium.github.io/Controleur/
 ---
 
 A Navigo pass (Paris area transportation card) reader.
